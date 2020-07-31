@@ -3,6 +3,6 @@ inputs:
   - name: trelloBoardUrl
     default: https://trello.com/b/gr1JlVXI/four-hundos-tacoria
   - name: dataFilePath
-    default: /_data/trello.json
+    default: _data/trello.json
   - name: fail
     default: failPlugin
