@@ -10,7 +10,7 @@ You can also configure this plugin to present the gathered data in the appropria
 
 ## A demo to explore and to clone
 
-- Demo site: https://demo-netlify-plugin-trello-lists.netlify.app/
+- Demo site: https://demo-plugin-trello-lists.netlify.app/
 - Demo repo: https://github.com/philhawksworth/demo-netlify-plugin-trello-lists
 
 ## Installation
