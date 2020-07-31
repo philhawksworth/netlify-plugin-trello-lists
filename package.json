@@ -3,13 +3,21 @@
   "version": "0.1.0",
   "description": "Get data for each list found in a public Trello board",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philhawksworth/netlify-plugin-trello-lists"
+  },
+  "bugs": {
+    "url" : "https://github.com/philhawksworth/netlify-plugin-trello-lists/issues"
+  },
   "keywords": [
     "jamstack",
     "api",
     "data",
     "plugin",
     "netlify",
-    "trello"
+    "trello",
+    "netlify-plugin"
   ],
   "author": "Phil Hawksworth <phil@netlify.com>",
   "license": "ISC",
