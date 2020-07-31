@@ -20,7 +20,7 @@ module.exports = {
   async onPreBuild({ inputs, utils }) {
     try {
       // Fetch the JSON data about this board
-      return await fetch(inputs.trelloBoardUrl + '.jsondd')
+      return await fetch(inputs.trelloBoardUrl + '.json')
         .then(res => res.json())
         .then(async (json) => {
 
@@ -67,7 +67,7 @@ module.exports = {
 
           // save the data to the specified file
           await fs.writeFileSync(inputs.dataFilePath, JSON.stringify(listObject));
-          console.log('Fetched and stashed: ', chalk.yellow(inputs.trelloBoardUrl), chalk.gray(inputs.dataFilePath));
+          console.log('Fetched and stashed: ', chalk.yellow(inputs.trelloBoardUrl), chalk.gray(`=> ${inputs.dataFilePath}`));
       });
     }
     catch(err) {
