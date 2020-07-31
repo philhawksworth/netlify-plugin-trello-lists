@@ -6,7 +6,7 @@ This [plugin](https://www.netlify.com/build/plugins-beta?utm_source=github&utm_m
 
 This plugin uses anonymous access to the Trello API based on the public URL of the desired board.
 
-You can also configure this plugin to present the gathered data in the appropriate location, so your chosen [static site generator](https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/?utm_source=github&utm_medium=plugin-formsubmissions-pnh&utm_campaign=devex) can leverage it during the build.
+You can also configure this plugin to present the gathered data in the appropriate location, so your chosen [static site generator](https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/?utm_source=github&utm_medium=plugin-trellolists-pnh&utm_campaign=devex) can leverage it during the build.
 
 ## A demo to explore and to clone
 
